@@ -37,3 +37,4 @@ anthropic       # Claude - client.messages.create(), client.complete()
 edge-tts        # TTS - communicate.run(text), save_to_file(), stream_to_speaker()
 streamlit-marquee # Scroll - streamlit_marquee(text), set_speed(), set_style()
 extra-streamlit-components>=0.1.60  # Import stx; cookie_mgr=stx.CookieManager(); cookie_mgr.get()
+tornado>=6.5 # not directly required, pinned by Snyk to avoid a vulnerability
